@@ -43,8 +43,8 @@ const Navbar=()=> {
 
 
     return(
-        <div className="text-black/70 pt-6">
-            <div className="hidden md:flex items-center px-4, py-2 mx-auto max-w-[400px]">
+        <div className="text-black/70 pt-6 bg-[#FDFCDC]">
+            <div className="hidden md:flex items-center px-4, py-2 mx-auto max-w-[400px] justify-center">
                 <ul className="flex flex-row p-4 space-x-8">
                     {navLinks.map((link, index)=>(
                         <li key={index}>
@@ -81,7 +81,8 @@ const Navbar=()=> {
             initial={false}
             animate={nav ? 'open': 'closed'}
             variants={menuVariants}
-            className="fixed left-0 top-0 w-full z-40 bg-pink-200"
+            className="fixed left-0 top-0 w-full z-40 bg-[#FDFCDC]"
+           
             >
 
             <ul className="text-4xl font-semibold my-24 text-center space-y-8">
