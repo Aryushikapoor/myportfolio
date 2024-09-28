@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import cursor from "../assets/starter-files-nextjs-animated/assets/icon1.png";
-
+import { FaLinkedin, FaGithub, FaRegLightbulb } from 'react-icons/fa'; 
 import { motion } from "framer-motion";
 import profilepic from "../assets/starter-files-nextjs-animated/assets/profilepic.png";
 import icon2 from "../assets/starter-files-nextjs-animated/assets/icon2.png";
@@ -58,7 +58,19 @@ const Hero = () => {
         <p className="text-center text-3xl max-w-[400px] mx-auto mt-6 text-gray-800">
           I am a <span style={{ color: colors[index] }}>{phrases[index]}</span>
         </p>
-        <Image src={profilepic} alt="pp" className="h-auto w-[500px] mx-auto mt-6" />
+        <div className="flex justify-center space-x-6 mt-6 ">
+  <a href="https://www.linkedin.com/in/aryushi-kapoor/" target="_blank" rel="noopener noreferrer">
+    <FaLinkedin className="text-black/60 text-3xl hover:text-blue-600 transition duration-200" />
+  </a>
+  <a href="https://github.com/Aryushikapoor" target="_blank" rel="noopener noreferrer">
+    <FaGithub className=" text-black/60 text-3xl hover:text-gray-700 transition duration-200" />
+  </a>
+  <a href="https://leetcode.com/u/Aryushikapoor/" target="_blank" rel="noopener noreferrer">
+    <FaRegLightbulb className="text-black/60 text-3xl hover:text-yellow-500 transition duration-200" />
+  </a>
+</div>
+        
+        <Image src={profilepic} alt="pp" className="h-auto w-[500px] mx-auto mt-5" />
       </div>
     </div>
   );

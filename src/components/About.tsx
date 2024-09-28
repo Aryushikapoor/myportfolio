@@ -49,34 +49,34 @@ const About = () => {
         </div>
 
        {/* Achievements Section */}
-<div className='w-full md:col-span-3 relative bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden'>
-  <div className='absolute inset-0 bg-gradient-to-r from-yellow-400 via-blue-500 to-green-500 opacity-30 animate-gradient-xy'></div>
-  <div className='flex flex-row p-6 relative z-10'>
-    <Image src={finance} alt="Experience" className='w-auto h-[130px]' />
-    <div className='flex flex-col ml-4'>
-      <h2 className='text-2xl font-bold text-black/80'>Achievements</h2>
-      <p className='text-lg text-gray-700 mt-2'>
-        ❖ Team Backup! Success: Secured 5th place in the IBM SkillsBuild Internship Program 2024 for the project "Her Cycle," competing against 29,347 students from 6,123 teams across 1,230 colleges in India.<br />
-        ❖ Postman API Fundamentals Student Expert: Earned a badge from Postman, demonstrating proficiency in API fundamentals.
-      </p>
-    </div>
-  </div>
-</div>
+       <div className='w-full md:col-span-3 relative bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden'>
+          <div className='absolute inset-0 bg-gradient-to-r from-yellow-400 via-blue-500 to-green-500 opacity-30 animate-gradient-xy'></div>
+          <div className='flex flex-row p-6 relative z-10'>
+            <Image src={card} alt="Experience" className='w-auto h-[130px]' />
+            <div className='flex flex-col ml-4'>
+              <h2 className='text-2xl font-bold text-black/80'>Experience</h2>
+              <p className='text-lg text-gray-700 mt-2'>
+                ❖ Asgrv Solutions, Full Stack Developer Intern <br />(June 2024, Remote)<br />
+                ❖ IBM SkillsBuild Internship<br /> (July 2024 - August 2024, Remote)
+              </p>
+            </div>
+          </div>
+        </div>
 
-{/* Experience Section */}
-<div className='w-full md:col-span-5 relative bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden'>
-  <div className='absolute inset-0 bg-gradient-to-r from-yellow-400 via-blue-500 to-green-500 opacity-30 animate-gradient-xy'></div>
-  <div className='flex flex-row p-6 relative z-10'>
-    <Image src={card} alt="Achievements" className='w-auto h-[130px]' />
-    <div className='flex flex-col ml-4'>
-      <h2 className='text-2xl font-bold text-black/80'>Experience</h2>
-      <p className='text-lg text-gray-700 mt-2'>
-      ❖ Asgrv Solutions, Full Stack Developer Intern (June 2024, Remote): Led the development of an information website using React.js, Bootstrap, and Node.js, enhancing user experience and functionality.<br /><br/>
-      ❖ IBM SkillsBuild Internship (July 2024 - August 2024, Remote): Developed "Her Cycle," a period tracking website focused on women's health aligned with the SDG 3. Integrated a chatbot, "Flow Buddy," using IBM Watson Assistant to provide tracking, guidance, and emergency support during menstrual cycles. reduce this in short
-      </p>
-    </div>
-  </div>
-</div>
+        {/* Experience Section */}
+        <div className='w-full md:col-span-5 relative bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden'>
+          <div className='absolute inset-0 bg-gradient-to-r from-yellow-400 via-blue-500 to-green-500 opacity-30 animate-gradient-xy'></div>
+          <div className='flex flex-row p-6 relative z-10'>
+            <Image src={finance} alt="Achievements" className='w-auto h-[130px]' />
+            <div className='flex flex-col ml-4'>
+              <h2 className='text-2xl font-bold text-black/80'>Achievements</h2>
+              <p className='text-lg text-gray-700 mt-2'>
+                ❖ Team Backup! Success: Secured 5th place in the IBM SkillsBuild Internship Program 2024 for the project "Her Cycle," competing against 29,347 students from 6,123 teams across 1,230 colleges in India.<br />
+                ❖ Postman API Fundamentals Student Expert: Earned a badge from Postman, demonstrating proficiency in API fundamentals.
+              </p>
+            </div>
+          </div>
+        </div>
 
       </div>
     </div>

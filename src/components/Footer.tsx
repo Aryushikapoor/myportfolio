@@ -6,16 +6,14 @@ const Footer = () => {
     <div className='bg-[#FDFCDC] px-6 md:px-0 mt-10  text-black/70 py-8 w-full mx-auto border-t border-gray-700 flex flex-col'>
       <div className='flex justify-between items-start'>
         <div className='flex flex-col text-left'>
-          <h1 className='text-2xl font-bold pl-20'>Aryushi Kapoor</h1>
+          <h1 className='text-orange-400 text-2xl font-bold pl-20'>Aryushi Kapoor</h1>
           <p className='mt-2 text-sm pl-20'>
-            Didn’t like the way it looks? Let me know your views through the contact form or drop me a message on my socials mentioned below.
+            Didn&apos;t like the way it looks? Let me know your views through the contact form or drop me a message on my socials mentioned below.
           </p>
           <p className='mt-1 text-sm italic pl-20'>
-            "In the realm of self-improvement, constructive criticism is the compass guiding me towards the shores of wisdom."
+            In the realm of self-improvement, constructive criticism is the compass guiding me towards the shores of wisdom.
           </p>
         </div>
-
-        
       </div>
 
       <div className='flex justify-between items-center mt-4 pr-40'>

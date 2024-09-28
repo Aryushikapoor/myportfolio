@@ -23,7 +23,7 @@ const Contact = () => {
 
       {/* Updated div for the "Let's Connect" section */}
       <div className='bg-black/10 pt-12 pb-12 rounded-xl flex-1'> {/* Use flex-1 for full width */}
-        <h2 className='text-5xl font-bold text-orange-400 mb-4 pl-4 pr-4'>Let's Connect</h2>
+        <h2 className='text-5xl font-bold text-orange-400 mb-4 pl-4 pr-4'>Let&apos;s Connect</h2>
         <p className='text-black/70 mb-6 pl-4 pr-4'>Feel free to drop a message, and we can schedule a call.</p>
         <form className='space-y-4 pl-4 pr-4' action="https://getform.io/f/akkgqpva" method='POST'>
           <div className='grid md:grid-cols-2 gap-4 '>
