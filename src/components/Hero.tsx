@@ -47,29 +47,50 @@ const Hero = () => {
           <h1 className="text-[#E48A57]">Aryushi Kapoor</h1>
         </div>
 
-        <motion.div className="hidden md:block absolute left-[200px] top-[130px]" drag>
+        {/* Added continuous vertical motion */}
+        <motion.div
+          className="hidden md:block absolute left-[200px] top-[130px]"
+          drag
+          animate={{ y: [0, -20, 0] }} // Moves up and down
+          transition={{
+            duration: 2, // Duration for one complete cycle (up and down)
+            repeat: Infinity, // Repeats the animation indefinitely
+            repeatType: "loop", // Keeps looping
+            ease: "easeInOut" // Smooth easing
+          }}
+        >
           <Image src={cursor} height="150" width="150" alt="cursor" draggable="false" />
         </motion.div>
 
-        <motion.div className="hidden md:block absolute right-[180px] top-[20px]" drag>
+        <motion.div
+          className="hidden md:block absolute right-[180px] top-[20px]"
+          drag
+          animate={{ y: [0, 20, 0] }} // Moves up and down in the opposite direction
+          transition={{
+            duration: 2, // Duration for one complete cycle (up and down)
+            repeat: Infinity, // Repeats the animation indefinitely
+            repeatType: "loop", // Keeps looping
+            ease: "easeInOut" // Smooth easing
+          }}
+        >
           <Image src={icon2} height="100" width="100" alt="message" draggable="false" />
         </motion.div>
 
         <p className="text-center text-3xl max-w-[400px] mx-auto mt-6 text-gray-800">
           I am a <span style={{ color: colors[index] }}>{phrases[index]}</span>
         </p>
-        <div className="flex justify-center space-x-6 mt-6 ">
-  <a href="https://www.linkedin.com/in/aryushi-kapoor/" target="_blank" rel="noopener noreferrer">
-    <FaLinkedin className="text-black/60 text-3xl hover:text-blue-600 transition duration-200" />
-  </a>
-  <a href="https://github.com/Aryushikapoor" target="_blank" rel="noopener noreferrer">
-    <FaGithub className=" text-black/60 text-3xl hover:text-gray-700 transition duration-200" />
-  </a>
-  <a href="https://leetcode.com/u/Aryushikapoor/" target="_blank" rel="noopener noreferrer">
-    <FaRegLightbulb className="text-black/60 text-3xl hover:text-yellow-500 transition duration-200" />
-  </a>
-</div>
-        
+        <div className="flex justify-center space-x-6 mt-6">
+          <a href="https://www.linkedin.com/in/aryushi-kapoor/" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin className="text-black/60 text-3xl hover:text-blue-600 transition duration-200" />
+          </a>
+          <a href="https://github.com/Aryushikapoor" target="_blank" rel="noopener noreferrer">
+            <FaGithub className=" text-black/60 text-3xl hover:text-gray-700 transition duration-200" />
+          </a>
+          <a href="https://leetcode.com/u/Aryushikapoor/" target="_blank" rel="noopener noreferrer">
+            <FaRegLightbulb className="text-black/60 text-3xl hover:text-yellow-500 transition duration-200" />
+          </a>
+        </div>
+
         <Image src={profilepic} alt="pp" className="h-auto w-[500px] mx-auto mt-5" />
       </div>
     </div>
