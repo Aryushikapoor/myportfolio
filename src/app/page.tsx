@@ -1,6 +1,6 @@
 "use client";
 import Navbar from "@/components/Navbar";
-import Image from "next/image";
+
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Portfolio from "@/components/Portfolio";
@@ -12,11 +12,11 @@ export default function Home() {
   return (
     <>
      <Navbar />
-      <Hero id="hero" />
-      <About id="about" />
-      <Portfolio id="portfolio" />
-      <Skills id="skills" />
-      <Contact id="contact" />
+      <Hero />
+      <About  />
+      <Portfolio  />
+      <Skills  />
+      <Contact />
       <Footer />
     </>
   );

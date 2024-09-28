@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import cursor from "../assets/starter-files-nextjs-animated/assets/icon1.png";
-import message from "../assets/starter-files-nextjs-animated/assets/icon2.png";
+
 import { motion } from "framer-motion";
 import profilepic from "../assets/starter-files-nextjs-animated/assets/profilepic.png";
 import icon2 from "../assets/starter-files-nextjs-animated/assets/icon2.png";
