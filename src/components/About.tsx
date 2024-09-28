@@ -71,9 +71,9 @@ const About = () => {
             <div className='flex flex-col ml-4'>
               <h2 className='text-2xl font-bold text-black/80'>Achievements</h2>
               <p className='text-lg text-gray-700 mt-2'>
-                ❖ Team Backup! Success: Secured 5th place in the IBM SkillsBuild Internship Program 2024 for the project "Her Cycle," competing against 29,347 students from 6,123 teams across 1,230 colleges in India.<br />
-                ❖ Postman API Fundamentals Student Expert: Earned a badge from Postman, demonstrating proficiency in API fundamentals.
-              </p>
+  ❖ Team Backup! Success: Secured 5th place in the IBM SkillsBuild Internship Program 2024 for the project &quot;Her Cycle,&quot; competing against 29,347 students from 6,123 teams across 1,230 colleges in India.<br />
+  ❖ Postman API Fundamentals Student Expert: Earned a badge from Postman, demonstrating proficiency in API fundamentals.
+</p>
             </div>
           </div>
         </div>
