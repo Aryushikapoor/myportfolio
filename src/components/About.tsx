@@ -56,7 +56,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* Achievements Section */}
+        {/* Experience Section */}
         <div className='w-full md:col-span-3 relative bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl overflow-hidden'>
           <div className='absolute inset-0 bg-gradient-to-r from-yellow-400 via-blue-500 to-green-500 opacity-30 animate-gradient-xy'></div>
           <div className='flex flex-row p-6 relative z-10'>
@@ -85,9 +85,9 @@ const About = () => {
             <div className='flex flex-col ml-4'>
               <h2 className='text-2xl font-bold text-black/80'>Achievements</h2>
               <ul className='text-lg text-gray-700 mt-2 list-none'>
-                <li className='relative pl-6'>
-                  <span className='absolute left-0'>❖</span>
-                  Team Backup! Success: Secured 5th place in the IBM SkillsBuild Internship Program 2024 for the project "Her Cycle," competing against 29,347 students from 6,123 teams across 1,230 colleges in India.
+              <li className='relative pl-6'>
+                <span className='absolute left-0'>❖</span>
+                    Team Backup! Success: Secured 5th place in the IBM SkillsBuild Internship Program 2024 for the project &quot;Her Cycle,&quot; competing against 29,347 students from 6,123 teams across 1,230 colleges in India.
                 </li>
                 <li className='relative pl-6 mt-2'>
                   <span className='absolute left-0'>❖</span>
