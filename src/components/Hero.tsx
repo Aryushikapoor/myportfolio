@@ -17,10 +17,10 @@ const phrases = [
 
 const colors = [
   "#E48A57", // Color for software developer
-  "#A2D2FF", // Color for web developer
-  "#98B4CE", // Color for tech enthusiast
-  "#D9ED92", // Color for passionate coder
-  "#AED9E0"  // Color for web designer
+  "#98B4CE", // Color for web developer
+  "#E48A57", // Color for tech enthusiast
+  "#98B4CE", // Color for passionate coder
+  "#4CAF50"  // Color for web designer
 ];
 
 const Hero = () => {
@@ -35,7 +35,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="py-16 relative overflow-hidden bg-[#FDFCDC]">
+    <div className="py-16 relative overflow-hidden bg-[#FDFCDC] " id="home">
       <div
         className="absolute rounded-[50%] w-[2500px] h-[1000px] top-[500px] left-[50%] -translate-x-1/2
         bg-[radial-gradient(closest-side,#AED9E0_30%,#A2D2FF_50%,#D9ED92)]"

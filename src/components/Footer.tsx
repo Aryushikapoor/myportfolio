@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa6';
+import { FaLinkedin, FaGithub, FaRegLightbulb } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
@@ -18,14 +18,14 @@ const Footer = () => {
 
       <div className='flex justify-between items-center mt-4 pr-40'>
         <div className='flex space-x-6 pl-20'>
-          <a href="#" className='hover:text-orange-400'>
+          <a href="https://www.linkedin.com/in/aryushi-kapoor/" className='hover:text-orange-400'>
             <FaLinkedin size={24} />
           </a>
           <a href="https://github.com/Aryushikapoor" className='hover:text-orange-400'>
             <FaGithub size={24} />
           </a>
-          <a href="https://www.linkedin.com/in/aryushi-kapoor/" className='hover:text-orange-400'>
-            <FaInstagram size={24} />
+          <a href="https://leetcode.com/u/Aryushikapoor/" className='hover:text-orange-400'>
+            <FaRegLightbulb size={24} />
           </a>
         </div>
 

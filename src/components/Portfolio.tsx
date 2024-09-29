@@ -27,14 +27,6 @@ const projects = [
         src: project1
     },
     {
-        title: "ASGRV Solutions",
-        desc: "A full-stack solution aimed at improving business engagements through modern web technologies.",
-        devStack: "[Next.js, React.js, Node.js, Tailwind.CSS]",
-        link: "https://www.asgrvsolutions.in/",
-        git: "https://github.com/Asgrv/asgrv-web",
-        src: project4
-    },
-    {
         title: "Artzon Interior",
         desc: "A full-stack website showcasing interior design solutions and portfolio, helping clients transform their spaces .",
         devStack: "[HTML, TailwindCSS, JavaScript, Mailchimp, Reach.js, Bootstrap, Node.js]",
@@ -42,6 +34,15 @@ const projects = [
         git: "https://github.com/adityagaur0/Artzon-Interiors",
         src: project3
     },
+    {
+        title: "ASGRV Solutions",
+        desc: "A full-stack solution aimed at improving business engagements through modern web technologies.",
+        devStack: "[Next.js, React.js, Node.js, Tailwind.CSS]",
+        link: "https://www.asgrvsolutions.in/",
+        git: "https://github.com/Asgrv/asgrv-web",
+        src: project4
+    },
+   
     {
         title: "Shortly",
         desc: "A URL shortening service that simplifies sharing links, manage and distribute concise, trackable URLs.",
@@ -62,7 +63,7 @@ const projects = [
 
 const Portfolio = () => {
   return (
-      <div className='bg-gradient-to-b from-yellow-100 to-blue-200 py-18 mt-10' id="portfolio">
+      <div className='bg-gradient-to-b from-yellow-100 to-blue-200 py-18 mt-10 ' id="portfolio">
           <div className="flex justify-center">
               <h1 className='text-5xl max-w-[400px] font-semibold pt-14 mb-8 text-orange-400 text-center'>
                   My Projects
@@ -79,8 +80,8 @@ const Portfolio = () => {
                       className={`mt-12 flex flex-col md:flex-row ${index % 2 === 1 ? "md:flex-row-reverse gap-12" : "gap-12"}`}
                   >
                       <div className='space-y-2 max-w-[550px] flex-1'>
-                          <h2 className='text-7xl my-4 text-[#98B4CE]'>{`0${index + 1}`}</h2>
-                          <h2 className='text-4xl'>{project.title}</h2>
+                          <h2 className='text-7xl my-4 text-[#80a3c4]'>{`0${index + 1}`}</h2>
+                          <h2 className='text-4xl font-bold text-black'>{project.title}</h2>
                           <p className='text-lg text-black/70 break-words'>{project.desc}</p>
                           <p className='text-xl text-orange-400 font-semibold'>{project.devStack}</p>
                           <div className='flex space-x-4 my-4'>

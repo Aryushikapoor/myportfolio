@@ -5,17 +5,17 @@ import mail from "../assets/starter-files-nextjs-animated/assets/mail.png";
 
 const Contact = () => {
   return (
-    <div className='max-w-[1000px] mx-auto flex flex-col lg:flex-row text-black/70 pt-20 pb-8
+    <div className='max-w-[1100px] mx-auto flex flex-col lg:flex-row text-black/70 pt-20 pb-8
     rounded-lg space-y-8 lg:space-y-0 lg:space-x-8' id='contact'>
 
       <div className='flex justify-center items-center'>
         <ul className='space-y-4'>
           <li className='flex items-center'>
-            <Image src={phone} alt="phone" className='h-[110px] w-auto mr-6' />
+            <Image src={phone} alt="phone" className='h-[100px] w-auto mr-6' />
             <p className='text-xl'>+91 9871167878</p>
           </li>
           <li className='flex items-center'>
-            <Image src={mail} alt="mail" className='h-[110px] w-auto mr-6' />
+            <Image src={mail} alt="mail" className='h-[100px] w-auto mr-6' />
             <p className='text-xl'>aryushikapoor@gmail.com</p>
           </li>
         </ul>
