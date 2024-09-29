@@ -4,12 +4,12 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #fdfdfd;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: feSpotLight) {
   :root {
-    --background: #020202;
+    --background: #ffffff;
     --foreground: #ededed;
   }
 }
